@@ -31,7 +31,7 @@ jobs:
           FOD_CLIENT_SECRET: ${{secrets.FOD_CLIENT_SECRET}}
           # EXTRA_FOD_LOGIN_OPTS: --socket-timeout=60s
           FOD_RELEASE: ${{secrets.FOD_RELEASE_ID}}
-          EXTRA_PACKAGE_OPTS: -bt msbuild 
+          EXTRA_PACKAGE_OPTS: -bt dotnet 
           DO_WAIT: true
           DO_EXPORT: true
           # TOOL_DEFINITIONS: https://ftfy.mycompany.com/tool-definitions/v1/tool-definitions.yaml.zip
