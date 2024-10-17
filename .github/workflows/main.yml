@@ -37,5 +37,5 @@ jobs:
           FOD_RELEASE: ${{secrets.FOD_RELEASE_ID}}
           EXTRA_PACKAGE_OPTS: -bt msbuild -bf WebGoat.NET.sln
           DO_WAIT: true
-          DO_EXPORT: true
+          DO_EXPORT: false
           # TOOL_DEFINITIONS: https://ftfy.mycompany.com/tool-definitions/v1/tool-definitions.yaml.zip
